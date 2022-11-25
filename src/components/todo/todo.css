@@ -1,0 +1,23 @@
+.to-do {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.to-do-name {
+  font-size: 25px;
+}
+
+.space {
+  flex: 1 1 auto;
+  margin-top: 5px;
+}
+
+.to-do-delete {
+  border: double;
+  background-color: rgb(15, 58, 138);
+  color: white;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
